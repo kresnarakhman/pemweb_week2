@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Registrasi</title>
+</head>
+<body>
+        <!-- Biodata -->
+        <h2><strong>Form Registrasi</strong></h2>
+        <fieldset>
+            <legend>Biodata</legend>
+
+            Nama Mahasiswa  : 
+            <input type="text" name="nama" placeholder="Nama Anda"><br><br>
+    
+            No Induk Mahasiswa (NIM)    :
+            <input type="text" name="nim" placeholder="123456789"><br><br>
+    
+            Alamat Mahasiswa    :
+            <input type="text area" name="alamat" placeholder="Alamat Anda"><br><br>
+    
+            Tanggal Lahir   :
+            <input type="date"><br><br>
+    
+            Jenis Kelamin   :  
+            <input type='radio' name='gender' value='Pria'> Pria
+            <input type='radio' name='gender' value='Wanita'> Wanita<br><br>
+    
+             Upload Foto    :
+             <input type='file'><br><br>
+    
+             URL Website    :
+             <input type='url' placeholder='URL Website Anda'><br><Br/>
+    
+             Perguruan Tinggi   :
+             <input type="textfield" name="perguruan tinggi" placeholder=""><br><br>
+         </fieldset>
+         
+         <fieldset>
+            <legend>Info Akun</legend>
+            Email: <input type="email" placeholder="Email Anda"><br><br>
+            Username: <input type="text" placeholder="Username Anda"><br><br>
+            Password: <input type="password" placeholder="Password Anda"><br><br>
+            Ulangi Password: <input type="password" placeholder="Password Anda">
+        </fieldset>
+    
+        <fieldset style="margin-top: 20px;">
+            <legend>Kemampuan Dasar</legend>
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> Javascript
+            <input type="checkbox"> PHP
+            <input type="checkbox"> MySQL
+            <input type="checkbox"> Laravel
+            <input type="checkbox"> React Native
+        </fieldset>
+    
+        <button style='margin-top: 20px;'type='reset'>Reset</button> 
+        <button style='margin-top: 20px;'type='submit'>Simpan</button>
+        <button style='margin-top: 20px;'type='submit'>Button</button> 
+    </form>
+</body>
+</html>
